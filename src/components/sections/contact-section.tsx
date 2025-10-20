@@ -36,7 +36,7 @@ export function ContactSection() {
           <p className="text-foreground">contact --info</p>
         </div>
         <h2 className="text-foreground mt-2 ml-1 text-3xl font-bold">
-          Let's Connect
+          Let&apos;s Connect
         </h2>
       </div>
 
