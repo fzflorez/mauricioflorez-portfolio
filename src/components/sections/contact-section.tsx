@@ -76,7 +76,7 @@ export function ContactSection() {
           >
             <Link href="/MauricioFlorez_CV.pdf" target="_blank" download>
               <Download className="mr-2 h-4 w-4" />
-              Descargar Resume
+              Download Resume
             </Link>
           </Button>
         </div>
