@@ -32,7 +32,7 @@ export function HeroSection() {
         <h1 className="text-foreground !-ml-1 text-4xl font-bold">
           Mauricio Florez.
         </h1>
-        <p className="text-lg">Frontend Developer.</p>
+        <p className="text-lg">Full Stack.</p>
       </div>
     </section>
   );
