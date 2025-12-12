@@ -9,17 +9,18 @@ import { useState } from "react";
 const projects = [
   {
     id: "proj1",
+    title: "Zenith Tech",
+    description:
+      "Premium technology online store, with competitive prices and exclusive offers.",
+    liveUrl: "https://zenith-tech.netlify.app/",
+    image: "zenith-tech",
+  },
+  {
+    id: "proj2",
     title: "Nutrifit 360",
     description: "Track the calories of your meals and workouts.",
     liveUrl: "https://mf-nutri-fit-360.netlify.app/",
     image: "nutrifit-360",
-  },
-  {
-    id: "proj2",
-    title: "ClimaApp",
-    description: "Check real-time weather anywhere in the world.",
-    liveUrl: "https://mf-clima-app.netlify.app/",
-    image: "clima-app",
   },
   {
     id: "proj3",
@@ -37,13 +38,20 @@ const projects = [
   },
   {
     id: "proj5",
+    title: "ClimaApp",
+    description: "Check real-time weather anywhere in the world.",
+    liveUrl: "https://mf-clima-app.netlify.app/",
+    image: "clima-app",
+  },
+  {
+    id: "proj6",
     title: "Loan Calculator",
     description: "Instantly simulate and calculate your loan payments.",
     liveUrl: "https://mf-loan-calculator.netlify.app/",
     image: "loan-calculator",
   },
   {
-    id: "proj6",
+    id: "proj7",
     title: "User Landing",
     description: "View a user list and check their details easily.",
     liveUrl: "https://user-landing.netlify.app/",
@@ -53,7 +61,7 @@ const projects = [
 
 export function ProjectsSection() {
   const [showAll, setShowAll] = useState(false);
-  const visibleProjects = showAll ? projects : projects.slice(0, 2);
+  const visibleProjects = showAll ? projects : projects.slice(0, 4);
 
   return (
     <section id="projects" className="space-y-4">
