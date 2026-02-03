@@ -10,7 +10,7 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="flex min-h-[14rem] flex-col justify-center space-y-4"
+      className="flex min-h-56 flex-col justify-center space-y-4"
     >
       <div className="flex items-center gap-2">
         <p className="text-primary text-lg">
@@ -29,10 +29,10 @@ export function HeroSection() {
           isTypingDone ? "opacity-100" : "-z-10 opacity-0",
         )}
       >
-        <h1 className="text-foreground !-ml-1 text-4xl font-bold">
+        <h1 className="text-foreground -ml-1 text-4xl font-bold">
           Mauricio Florez.
         </h1>
-        <p className="text-lg">Full Stack.</p>
+        <p className="text-lg">Frontend Developer.</p>
       </div>
     </section>
   );
